@@ -334,7 +334,7 @@ export default class CalendarScroller extends Component {
 
     return (
       <View
-        style={{ height: this.state.itemHeight, flex: 1 }}
+       style={{ height: 95, flex: 1,paddingTop:10 }}
         onLayout={this.onLayout}
       >
         <RecyclerListView
